@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/card-wallet",
+            "lambdaFunction": "stripeCheckout",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "stripeWallet",
+    "apiName": "stripeWallet",
+    "functionArns": [
+        {
+            "lambdaFunction": "stripeCheckout"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-transcriptionapp-dev-151600-authRole",
+        "unAuthRoleName": "amplify-transcriptionapp-dev-151600-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "stripeCheckout",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html, body, #root, #root>div {
+    font-family: 'Open Sans', serif;
+}
+
+.logoThumb {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding:5px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.menu-item-box {
+    ;
+}
+.menu-item-box:hover {
+background-color: #f7faff;
+}
+.menu-item-box-a {
+background-image: linear-gradient(105deg, #4299e1, #6fbdfe);
+}
+.bg-gradient {
+background-image: linear-gradient(105deg, #4299e1, #6fbdfe);    
+}
+.bg-light {
+    background: #f7faff
+}
+
+.menu-item {
+    text-align: left;
+    width: 100%;
+    padding-left: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1.3px;
+}
+.submenu-item {
+    text-align:left;
+    padding-left:57px;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.8px;
+}
+
+.submenu-item a:hover {
+color: #4299e1 !important;
+}
+.nav-icon .MuiSvgIcon-root{
+    opacity:0.7;
+    font-size:1.2rem;
+    padding-bottom:1px;
+}
+.nav-sidebar {
+    width:300px;
+    box-shadow: 0px 0px 7px #0b3a7820;
+    z-index: 4444;
+    border:0px;
+}
+.bg-gray-100 {
+    background:#eff5fe;
+}
+
+.card-highlight {
+    background-image: linear-gradient(105deg, #4299e1, #6fbdfe);
+    border: 0px;
+    box-shadow: 0px 3px 12px -3px #0b3a7820;
+    padding:25px;
+    border-radius:3px;
+}
+.card {
+    background:white;
+    border: 0px;
+    box-shadow: 0px 10px 10px -7px #0b3a7820;
+    padding:25px;
+    border-radius:3px;
+}
+
+.card-video {
+    background:white;
+    height: 100%;
+    border: 0px;
+    box-shadow: 0px 10px 10px -7px #0b3a7820;
+    padding:25px;
+    border-radius:3px;
+}
+
+.marketing{
+    width: 30%;
+}
+.tiny-card {
+    background:white;
+    border: 0px;
+    box-shadow: 0px 10px 10px -7px #0b3a7820;
+    padding:5px;
+    border-radius:3px;
+}
+.submenu-box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #f7faff;
+}
+.c-dropdown {
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1.2px;
+    font-weight:500;
+}
+.highlight-h {
+    text-transform: ;
+    font-size: 15px;
+    color:white;
+    opacity:1;
+    letter-spacing: 0px;
+    font-weight:500;    
+}
+
+.highlight-desc {
+    text-transform: uppercase;
+    font-size: 13px;
+    color:#ffffff;
+    opacity:0.8;
+    letter-spacing: 1.2px;
+    font-weight:500;        
+}
+.highlight-figs {
+    text-transform: uppercase;
+    font-size: 32px;
+    color:white;
+    letter-spacing: 1.2px;
+    font-weight:900;    
+}
+
+
+.card-h {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #4a5568;
+    padding-bottom:5px;
+    letter-spacing: 1.2px;
+    font-weight:600;    
+}
+
+.table-h {
+    font-size: 16px;
+    color: #4a5568;
+    font-weight:600;    
+}
+.table-content {
+    color: #4a5568;
+    font-size: 16px;
+}
+.table-icon {
+    color: #b7c6d2;
+}
+
+.saved-icon {
+    color: #b7c6d2;
+}
+
+.unsaved-icon {
+    color: #0c297e;
+}
+
+.mr-table{
+    margin-right:1.5rem;
+}
+
+.table-icon:hover {
+    color: #4299e1;
+}
+.small-interval {
+}
+
+.card-desc {
+    text-transform: uppercase;
+    font-size: 10px;
+    color:white;
+    letter-spacing: 1.2px;
+    font-weight:600;    
+    margin-left:8px;
+    bottom:23px;
+    border-radius:50px;
+    background-image: linear-gradient(105deg, #4299e1, #6fbdfe);    
+    padding: 3px 10px;
+    position: relative;
+
+}
+
+.card-figs {
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 1.2px;
+    font-weight:900;
+    color:#4299e1;
+    margin-top:10px;    
+}
+
+
+.interval {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #4a5568;
+    opacity: 0.4;
+    letter-spacing: 1.2px;
+    font-weight:600;    
+    padding: 10px 20px;
+}
+
+.interval-active {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #4a5568;
+    background:white;
+    padding: 10px 20px;
+    font-weight:600;    
+    letter-spacing: 1.2px;
+}
+button:focus {
+    outline:none !important
+}
+
+.bs-b {
+    box-shadow: 0px 0px 7px #0b3a7820;
+}
+
+.stream-icon-mc {
+    background:#4299e125;
+    padding:3px;
+    border-radius:55px;
+    color:#4299e1;
+    margin-top:19px;    
+}
+.stream-icon-md {
+    background:#e1424225;
+    padding:3px;
+    border-radius:55px;
+    color:#e1424290;
+    margin-top:19px;
+
+}
+.stream-icon-pc {
+    background:#42e16725;
+    padding:3px;
+    border-radius:55px;
+    color:#42e167;
+    margin-top:19px;
+}
+.stream-desc {
+    font-size: 14px;
+}
+.stream-h {
+    text-transform: uppercase;
+    font-size: 11px;
+    margin-bottom:5px;
+    letter-spacing: 1.2px;
+    font-weight:600;
+    opacity:0.4;    
+    display:block;
+}
+
+
+.stream-timestamp {
+    font-size: 11px;
+    opacity:0.4;
+    padding-top:5px;
+    font-style: italic;
+    font-weight:600;    
+    display:block;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #00000010; 
+}
+ 
+/* Handle */
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: #4299e1;   border-radius:5px !important;
+}
+.gradient-btn{
+  border-radius: 3px;
+  padding:12px 20px;
+  color:white;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight:600;  
+  letter-spacing: 1.2px;
+  box-shadow: 0px 10px 10px -7px #0b3a7820;
+  background-image: linear-gradient(90deg,#2a6bb0 70%,#5dadf0 100%);
+  /*background-image: linear-gradient(90deg, #4299e1 50%, #5dadf0 80%);*/
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .4s ease-out;
+}
+
+.white-btn{
+  border-radius: 3px;
+  color: linear-gradient(90deg, #4299e1 50%, #5dadf0 80%);
+  padding:12px 20px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight:600;  
+  letter-spacing: 1.2px;
+  box-shadow: 0px 10px 10px -7px #0b3a7820;
+
+  background: white;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .4s ease-out;
+}
+
+.ch1 {
+    font-size:24px;
+    color: #4a5568;
+}
+
+.gradient-btn:hover {
+  background-position: left bottom;
+}
+
+.profile-mi {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #4a5568;
+    letter-spacing: 1.2px;
+    font-weight:600;    
+}
+.profile-dropdown {
+    padding:20px;
+    background:white;
+    box-shadow: 0px 6px 10px -5px #0b3a7840;
+    position: absolute;
+    right: 23px;
+    top: 62px;
+    border-radius: 3px;
+}

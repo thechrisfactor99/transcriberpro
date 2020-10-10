@@ -1,0 +1,21 @@
+type Transcription @model {
+  id: ID!
+  displayName: String
+  fileName: String!
+  fileType: String
+  s3Input: String
+  s3Output: String
+  status: String
+  user: String
+  transcriptionStatus: String
+  duration: Float
+}
+
+type Account @model {
+  id: String
+  accountType: String
+  email: String
+  stripe_id: String
+  time_balance: String
+}
+
